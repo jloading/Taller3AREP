@@ -22,6 +22,25 @@ https://github.com/jloading/Taller3AREP
 mvn package
 ```
 
+3. Se ejecuta el proyecto con el comando (asegúrese de copiar y pegar el comando en su terminal)
+```
+mvn exec:java -Dexec.mainClass="org.example.HttpServer"
+```
+
+4. Para acceder a los recursos especificados se debe escribir en el navegador cualquiera de las siguientes direcciones
+
+```
+http://localhost:35000/Mac.jpg
+```
+
+```
+http://localhost:35000/index.html
+```
+
+```
+http://localhost:35000/index.css
+```
+
 ## Corriendo las pruebas
 
 Se acceden a los recursos especificados, en este caso son imágenes y páginas web:
